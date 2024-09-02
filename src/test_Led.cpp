@@ -4,7 +4,7 @@
 
 int main(){
 
-    std::println("-- Test Led --");
+    std::println("/- Test Led -\\");
 
     
     return 0;
