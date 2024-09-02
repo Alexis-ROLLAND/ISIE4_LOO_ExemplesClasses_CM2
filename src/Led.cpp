@@ -1,16 +1,8 @@
 #include "Led.hpp"
 
 //----------------------------------------------------------------------------
-void    Led::toggle() noexcept{
-    if (this->getState() == Etat_t::OFF) this->setState(Etat_t::ON);
-    else this->setState(Etat_t::ON);
 
-}
 //----------------------------------------------------------------------------
-std::string_view    Led::to_string() const noexcept{
-    if (this->getState() == Etat_t::OFF) return "OFF";
-    else return "ON";
-}
 
 
 //----------------------------------------------------------------------------
