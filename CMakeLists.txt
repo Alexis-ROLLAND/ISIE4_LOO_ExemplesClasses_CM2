@@ -21,6 +21,7 @@ include_directories(include)
 
 add_executable(testLed src/test_Led.cpp src/Led.cpp)
 
-
+# Set up for Ninja instead of make : cmake .. -G Ninja
+# To build using Ninja, just call ninja - Fell free to use cmake --build . instead
 
 
